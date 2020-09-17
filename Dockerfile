@@ -3,7 +3,7 @@ RUN apt-get update &&\
     DEBIAN_FRONTEND=noninteractive apt-get install -y wget xz-utils git &&\
     rm -rf /var/lib/apt/lists/*
 
-ENV NODE_VERSION=v13.2.0
+ENV NODE_VERSION=v14.11.0
 
 WORKDIR /root
 VOLUME /root
